@@ -1,22 +1,17 @@
 # Sample Hardhat Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+please run all in seperate terminal
+1.To get accounts
 npx hardhat node  
+please add accounts in metamask with new private key 
+
+2.To deploy contract
 npx hardhat run scripts/deploy.js --network localhost
 
 
-change factory address in exportABIs
+3.change factory address in exportABIs
 node scripts/exportABIs.js
 
-go to frontend
+4.go to frontend
 npm start
